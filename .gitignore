@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+venv/
+env/
+.venv/
+
+# Models
+*.pt
+*.pth
+*.onnx
+*.json
+*.pkl
+!package.json
+!package-lock.json
+!tsconfig.json
+!docker-compose.yml
+
+# Datasets
+datasets/plantvillage/
+datasets/yield_data/
+datasets/*.csv
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Environment
+.env
+.env.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+docker/.env
+
+# Uploads
+backend/uploads/
+backend/gradcam_outputs/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
